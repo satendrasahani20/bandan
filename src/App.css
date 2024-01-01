@@ -1,0 +1,63 @@
+.Home {
+  background: linear-gradient(
+    180deg,
+    #002cc7 0%,
+    rgba(11, 40, 144, 0.56) 99.99%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  height: 100vh;
+}
+
+.custom-nav {
+  background: linear-gradient(180deg, #fff 0%, rgba(217, 217, 217, 0) 100%);
+  position: absolute;
+  width: 88%;
+  left: 102px;
+  height: 63px;
+}
+.home {
+  margin-right: 196px;
+  color: dark black;
+}
+
+.custom-nav li {
+  margin-right: 36px;
+}
+.display-area {
+  padding-top: 122px;
+  color: #fff;
+}
+.h-500 {
+  height: 500px;
+}
+.display-area input{
+      background: rgba(0, 0, 0, 0);
+      color: #fff;
+      padding-left: 4px;
+      width:100%;
+      border-width: 1px;
+      border-color: white;
+}
+@media screen and (max-width: 700px) {
+  .custom-nav {
+      left:7%;
+  }
+  .custom-nav h5{
+      font-size: 9px;
+      font-weight: bold;
+  }
+    .custom-nav .justify-content-end {
+      justify-content: flex-start!important;
+
+    }  
+    .custom-nav  .navbar-nav{
+      flex-direction: row;
+      font-size: 12px;
+      margin-left: 20px;
+    }
+  
+
+}
+.h-200{
+  height:200px;
+}
